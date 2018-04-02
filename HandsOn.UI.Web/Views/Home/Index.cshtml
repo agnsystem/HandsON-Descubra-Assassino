@@ -1,0 +1,53 @@
+﻿@model HandsOn.UI.Web.Models.Mensagem
+
+@{
+    ViewBag.Title = "Hands-on";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title</h1>
+                <h2></h2>
+            </hgroup>
+            <center>
+                <p>
+                    Banco de dados - Central de Investigação Policial
+                    <br />
+                    Inspetor Responsavel: Jacques Clouseau
+
+                </p>
+            </center>
+        </div>
+    </section>
+}
+<div id="Opçoes" >
+    <h3>Descuba o assassino:</h3>
+    @using (Html.BeginForm())
+    {
+        <hr />
+        @*if (@ViewBag.Mensagem != "")
+        {
+             <p>@ViewBag.Mensagem</p>
+        }
+        else
+        {
+        }*@
+            <center>
+                <h4>Lista de suspeitos</h4>
+                @Html.DropDownList("IdSuspeito", "Selecione um suspeito")
+
+                <hr />
+                <h4>Lista de locais</h4>
+                @Html.DropDownList("IdLocal", "Selecione um local")
+
+                <hr />
+                <h4>Lista de armas</h4>
+                @Html.DropDownList("IdArma", "Selecione um arma")
+            </center>
+        <hr />
+        <input type="submit" value="Enviar" />
+        <h3>@ViewBag.Mensagem</h3>
+    }
+
+</div>

@@ -1,0 +1,16 @@
+D:\Teste\HandsOn\HandsOn.Repositorio\bin\Debug\HandsOn.Repositorio.dll
+D:\Teste\HandsOn\HandsOn.Repositorio\bin\Debug\HandsOn.Repositorio.pdb
+D:\Teste\HandsOn\HandsOn.Repositorio\bin\Debug\HandsOn.Dominio.dll
+D:\Teste\HandsOn\HandsOn.Repositorio\bin\Debug\Newtonsoft.Json.dll
+D:\Teste\HandsOn\HandsOn.Repositorio\bin\Debug\HandsOn.Dominio.pdb
+D:\Teste\HandsOn\HandsOn.Repositorio\bin\Debug\Newtonsoft.Json.xml
+D:\Teste\HandsOn\HandsOn.Repositorio\obj\Debug\HandsOn.Repositorio.csprojResolveAssemblyReference.cache
+D:\Teste\HandsOn\HandsOn.Repositorio\obj\Debug\HandsOn.Repositorio.dll
+D:\Teste\HandsOn\HandsOn.Repositorio\obj\Debug\HandsOn.Repositorio.pdb
+D:\Teste\New\HandsOn\HandsOn.Repositorio\bin\Debug\HandsOn.Repositorio.dll
+D:\Teste\New\HandsOn\HandsOn.Repositorio\bin\Debug\HandsOn.Repositorio.pdb
+D:\Teste\New\HandsOn\HandsOn.Repositorio\bin\Debug\HandsOn.Dominio.dll
+D:\Teste\New\HandsOn\HandsOn.Repositorio\bin\Debug\HandsOn.Dominio.pdb
+D:\Teste\New\HandsOn\HandsOn.Repositorio\obj\Debug\HandsOn.Repositorio.csprojResolveAssemblyReference.cache
+D:\Teste\New\HandsOn\HandsOn.Repositorio\obj\Debug\HandsOn.Repositorio.dll
+D:\Teste\New\HandsOn\HandsOn.Repositorio\obj\Debug\HandsOn.Repositorio.pdb

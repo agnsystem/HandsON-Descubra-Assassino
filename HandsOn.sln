@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Apresentacao", "01-Apresentacao", "{33BDDF75-4FCE-420D-A82F-18E55E632608}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Aplicacao", "02-Aplicacao", "{F9160BD5-CB15-4465-98B9-B03E56FE24CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Dominio", "03-Dominio", "{A49A01A5-88BC-4BF2-9530-3B82381855AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Repositorio", "04-Repositorio", "{B0979408-DC75-416D-9166-743C2D88B0C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOn.Dominio", "HandsOn.Dominio\HandsOn.Dominio.csproj", "{5823DFC3-A4E0-4248-898A-6C4421C7D774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOn.Repositorio", "HandsOn.Repositorio\HandsOn.Repositorio.csproj", "{9555D6B1-9D5C-4C75-AE74-4BC1EE8B249F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOn.Aplicacao", "HandsOn.Aplicacao\HandsOn.Aplicacao.csproj", "{589C639A-A929-4034-89E2-0759395F4E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOn.UI.Web", "HandsOn.UI.Web\HandsOn.UI.Web.csproj", "{D654CD97-43AA-4150-911B-6F4B281797B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-ScriptSQL", "00-ScriptSQL", "{ECBA6D1F-1909-4DD0-B2A3-BC0AEF234175}"
+	ProjectSection(SolutionItems) = preProject
+		criarDataBase.sql = criarDataBase.sql
+		CriarTabelas.sql = CriarTabelas.sql
+		Explicativo.txt = Explicativo.txt
+		inserirDados.sql = inserirDados.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://agnsolution.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HandsOn.Aplicacao\\HandsOn.Aplicacao.csproj
+		SccProjectTopLevelParentUniqueName1 = HandsOn.sln
+		SccProjectName1 = HandsOn.Aplicacao
+		SccLocalPath1 = HandsOn.Aplicacao
+		SccProjectUniqueName2 = HandsOn.Dominio\\HandsOn.Dominio.csproj
+		SccProjectTopLevelParentUniqueName2 = HandsOn.sln
+		SccProjectName2 = HandsOn.Dominio
+		SccLocalPath2 = HandsOn.Dominio
+		SccProjectUniqueName3 = HandsOn.Repositorio\\HandsOn.Repositorio.csproj
+		SccProjectTopLevelParentUniqueName3 = HandsOn.sln
+		SccProjectName3 = HandsOn.Repositorio
+		SccLocalPath3 = HandsOn.Repositorio
+		SccProjectUniqueName4 = HandsOn.UI.Web\\HandsOn.UI.Web.csproj
+		SccProjectTopLevelParentUniqueName4 = HandsOn.sln
+		SccProjectName4 = HandsOn.UI.Web
+		SccLocalPath4 = HandsOn.UI.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5823DFC3-A4E0-4248-898A-6C4421C7D774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5823DFC3-A4E0-4248-898A-6C4421C7D774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5823DFC3-A4E0-4248-898A-6C4421C7D774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5823DFC3-A4E0-4248-898A-6C4421C7D774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9555D6B1-9D5C-4C75-AE74-4BC1EE8B249F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9555D6B1-9D5C-4C75-AE74-4BC1EE8B249F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9555D6B1-9D5C-4C75-AE74-4BC1EE8B249F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9555D6B1-9D5C-4C75-AE74-4BC1EE8B249F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589C639A-A929-4034-89E2-0759395F4E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589C639A-A929-4034-89E2-0759395F4E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589C639A-A929-4034-89E2-0759395F4E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589C639A-A929-4034-89E2-0759395F4E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D654CD97-43AA-4150-911B-6F4B281797B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D654CD97-43AA-4150-911B-6F4B281797B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D654CD97-43AA-4150-911B-6F4B281797B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D654CD97-43AA-4150-911B-6F4B281797B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5823DFC3-A4E0-4248-898A-6C4421C7D774} = {A49A01A5-88BC-4BF2-9530-3B82381855AD}
+		{9555D6B1-9D5C-4C75-AE74-4BC1EE8B249F} = {B0979408-DC75-416D-9166-743C2D88B0C5}
+		{589C639A-A929-4034-89E2-0759395F4E0E} = {F9160BD5-CB15-4465-98B9-B03E56FE24CA}
+		{D654CD97-43AA-4150-911B-6F4B281797B5} = {33BDDF75-4FCE-420D-A82F-18E55E632608}
+	EndGlobalSection
+EndGlobal
